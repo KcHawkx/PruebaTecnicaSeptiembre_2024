@@ -1,0 +1,32 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12.9rem;
+  height: 100vh;
+  background-color: rgba(33, 33, 33, 255);
+  border-right: 1px solid #ffffff;
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 0px 10px 3px 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}

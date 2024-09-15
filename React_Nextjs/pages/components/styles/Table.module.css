@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th {
+  top: 2rem;
+  position: sticky;
+  background-color: #6d6d6d;
+}
+
+.th,
+.td {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 2px;
+  text-align: left;
+  overflow: visible;
+}
+
+.tdButton {
+  border: 1px solid rgb(138, 138, 138);
+  padding: 2px;
+  width: 75px;
+  text-align: center;
+}
+
+.th,
+.td {
+  max-width: 70%;
+  overflow: visible;
+}
+
+.selected {
+  background-color: #4a4a4a;
+}

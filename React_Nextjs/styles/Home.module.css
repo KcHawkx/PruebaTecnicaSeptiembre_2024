@@ -1,0 +1,102 @@
+/* Debido a la naturaleza de la prueba tecnica, preferí no darle nombres complicados y muy unicos. */
+
+.DivPricipal {
+  position: absolute;
+  left: 13rem;
+  background-color: rgba(33, 33, 33, 255);
+  margin: 0;
+  size: 100vh;
+  font-size: 0.9rem;
+  width: 85%;
+  height: 100%;
+}
+
+/* Contenedor principal para las tablas */
+.DivTablas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.DivInfo {
+  position: fixed;
+  height: 100vh;
+  width: 12rem;
+  right: 0;
+  text-align: left;
+  color: white;
+}
+
+.DivTablaSegmentos,
+.DivTablaCalzadas,
+.DivTablaBordillos {
+  position: absolute;
+  overflow-y: scroll;
+  height: 16rem;
+  width: 85%;
+  border: 1px solid #000000;
+  background-color: #b9b9b9;
+}
+
+.DivTablaSegmentos {
+  top: 0rem;
+}
+
+.DivTablaCalzadas {
+  top: 16.5rem;
+}
+
+.DivTablaBordillos {
+  top: 33rem;
+}
+
+.DivTablas h1 {
+  background-color: #b9b9b9;
+  margin: 0;
+  padding: 0 0 2px 2px;
+  position: sticky;
+  top: 0;
+  font-size: 1.6rem;
+}
+
+.DivTablaSegmentos tr:hover {
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+
+.TablaTituloPadre {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #b9b9b9;
+}
+
+.TablasTitulo {
+  display: flex;
+  width: 100%;
+
+  justify-content: left;
+}
+
+/* div.DivDerecha {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+} */
+
+.mb3 {
+  background-color: black;
+}
+
+.contenido {
+  position: absolute;
+  color: white;
+  background-color: rgba(33, 33, 33, 255);
+  margin: 0;
+  size: 100vh;
+  width: 100%;
+  height: 100%;
+}

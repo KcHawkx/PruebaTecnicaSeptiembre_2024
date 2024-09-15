@@ -1,0 +1,12 @@
+#__next {
+  background-color: rgba(33, 33, 33, 255);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: hidden;
+  background-color: rgba(33, 33, 33, 255);
+}

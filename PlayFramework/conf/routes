@@ -1,0 +1,37 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+### Tome como ejemplo la creación base de Play Framework ###
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+######  ######  ######  ######  ######  ######  ######
+
+
+
+# Rutas CRUD para los Segmentos
+GET   /segmentos                 controllers.SegmentoController.getAllSegmento
+POST  /segmentos                 controllers.SegmentoController.createSegmento
+PUT   /segmentos/:id             controllers.SegmentoController.updateSegmento(id: Long)
+DELETE /segmentos/:id            controllers.SegmentoController.deleteSegmento(id: Long)
+
+# Rutas CRUD para las Calzadas
+GET   /calzadas                 controllers.CalzadaController.getAllCalzada
+POST  /calzadas                 controllers.CalzadaController.createCalzada
+PUT   /calzadas/:id             controllers.CalzadaController.updateCalzada(id: Long)
+DELETE /calzadas/:id            controllers.CalzadaController.deleteCalzada(id: Long)
+
+GET   /calzadas/prueba1                 controllers.CalzadaController.prueba1
+GET   /calzadas/prueba2                 controllers.CalzadaController.prueba2
+
+
+
+# Rutas CRUD para los Bordillos
+GET   /bordillos                 controllers.BordilloController.getAllBordillo
+POST  /bordillos                 controllers.BordilloController.createBordillo
+PUT   /bordillos/:id             controllers.BordilloController.updateBordillo(id: Long)
+DELETE /bordillos/:id            controllers.BordilloController.deleteBordillo(id: Long)

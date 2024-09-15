@@ -1,0 +1,28 @@
+.ModalMain {
+  background-color: rgb(44, 44, 44);
+  opacity: 0.9;
+}
+
+.ModalHeader {
+  background-color: rgb(24, 22, 22);
+  color: #ffffff;
+}
+
+.ModalFooter {
+  background-color: rgb(24, 22, 22);
+}
+
+.ModalBody {
+  background-color: rgb(255, 255, 255);
+  color: rgb(53, 51, 51);
+}
+
+.ModalIdData {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  pointer-events: none;
+}
+
+.ModalData {
+  border-color: black;
+}
